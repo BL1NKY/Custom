@@ -43,6 +43,11 @@ header nav ul li a {
 
 /*main*/
 
+main {
+  padding: 5px;
+  margin: 0;
+}
+
 main .container {
   margin: 5px;
   padding: 10px;
@@ -61,4 +66,79 @@ main .container {
 }
 .container p:last-child {
   margin: 10px 0 0 0;
+}
+
+
+/*Slider*/
+
+#main-slider {
+  margin: 0;
+  width: 720px;
+  padding: 20px;
+  border: 3px solid;
+}
+
+#main-slider #slider{
+  margin: 0;
+  padding: 0;
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#main-slider #slider .slides {
+  width: 6000px;
+  height: 400px;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+#main-slider #slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 720px;
+  height: 400px;
+}
+
+#main-slider hr {
+  background-color: black;
+  padding: 1.5px;
+  border: none;
+  margin: 10px 0;
+}
+
+.slider-underline {
+  padding: 0;
+  margin: 0;
+  height: 21px;
+  display: block;
+}
+
+.slider-underline li {
+  float: left;
+  margin: 0;
+  list-style-type: none;
+  display: block;
+}
+
+.slider-underline .under-slider{
+  width: 240px;
+}
+
+.slider-underline button{
+  width: 150px;
+}
+
+.slider-underline .btn-prev {
+  text-align: left;
+}
+
+.slider-underline .btn-next {
+  text-align: right;
+}
+
+.slider-underline .p-center p {
+  text-align: center;
+  margin: 1.5px 0;
 }

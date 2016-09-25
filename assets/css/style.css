@@ -1,0 +1,64 @@
+body {
+  background       : #ffffff;
+  font-family      : "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color            : #333;
+  margin: 0;
+}
+
+/*header*/
+
+header {
+  background-color: #888;
+  padding: 10px 10px 0 10px;
+  margin: 0;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0 0 0 10px;
+  display: inline;
+  color: #ffffff;
+}
+
+header nav ul {
+  display: inline-flex;
+  margin: 0;
+}
+
+header nav ul li {
+  background-color: black;
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px 15px;
+  margin: 0 10px;
+  margin-top: 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+header nav ul li a {
+  padding: 0 10px;
+  color: white;
+  margin: 0;
+}
+
+/*main*/
+
+main .container {
+  margin: 5px;
+  padding: 10px;
+  border: 4px solid;
+}
+
+.container hr {
+ background-color: black;
+ padding: 2px;
+ border: none;
+ border-radius: 2px;
+}
+
+.container p:first-child{
+  margin: 0 0 10px 0;
+}
+.container p:last-child {
+  margin: 10px 0 0 0;
+}

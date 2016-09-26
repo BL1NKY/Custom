@@ -1,14 +1,18 @@
+/*Colors:
+#17C5FF
+#BEEBFA*/
+
 body {
   background       : #ffffff;
   font-family      : "Helvetica Neue", Helvetica, Arial, sans-serif;
   color            : #333;
-  margin: 0;
+  margin: 0 auto;
 }
 
 /*header*/
 
 header {
-  background-color: #888;
+  background-color: grey;
   padding: 10px 10px 0 10px;
   margin: 0;
   text-decoration: none;
@@ -22,7 +26,8 @@ header h1 {
 
 header nav ul {
   display: inline-flex;
-  margin: 0;
+  margin: 0 auto;
+  margin-right: 10px;
 }
 
 header nav ul li {
@@ -39,26 +44,42 @@ header nav ul li a {
   padding: 0 10px;
   color: white;
   margin: 0;
+
 }
 
 /*main*/
 
 main {
-  padding: 5px;
+  padding: 20px;
   margin: 0;
+  position: relative;
 }
 
-main .container {
-  margin: 5px;
-  padding: 10px;
+
+/*Container*/
+
+
+.container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 720px;
+  background-color: #BEEBFA;
   border: 4px solid;
+  border-color: #17C5FF;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .container hr {
- background-color: black;
- padding: 2px;
- border: none;
- border-radius: 2px;
+  background-color: #17C5FF;
+  padding: 2px;
+  border: none;
+  border-radius: 2px;
+}
+
+.container p {
+  margin: 10px 0;
 }
 
 .container p:first-child{
@@ -72,10 +93,14 @@ main .container {
 /*Slider*/
 
 #main-slider {
-  margin: 0;
+  background-color: lightgrey;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
   width: 720px;
   padding: 20px;
   border: 3px solid;
+  border-color: #222;
 }
 
 #main-slider #slider{
@@ -102,43 +127,43 @@ main .container {
 }
 
 #main-slider hr {
-  background-color: black;
+  background-color: #222;
   padding: 1.5px;
   border: none;
   margin: 10px 0;
 }
 
-.slider-underline {
+#main-slider .slider-underline {
   padding: 0;
   margin: 0;
   height: 21px;
   display: block;
 }
 
-.slider-underline li {
+#main-slider .slider-underline li {
   float: left;
   margin: 0;
   list-style-type: none;
   display: block;
 }
 
-.slider-underline .under-slider{
+#main-slider .slider-underline .under-slider{
   width: 240px;
 }
 
-.slider-underline button{
+#main-slider .slider-underline button{
   width: 150px;
 }
 
-.slider-underline .btn-prev {
+#main-slider .slider-underline .btn-prev {
   text-align: left;
 }
 
-.slider-underline .btn-next {
+#main-slider .slider-underline .btn-next {
   text-align: right;
 }
 
-.slider-underline .p-center p {
+#main-slider .slider-underline .p-center p {
   text-align: center;
   margin: 1.5px 0;
 }

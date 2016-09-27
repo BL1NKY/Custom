@@ -16,32 +16,32 @@ $(function () {
   var $btnNext = $main.find("#Next");
 
   $btnNext.on("click", function () {
-    console.log("NEXT");
+    // console.log("NEXT");
     $slideContainer.animate({"margin-left": "-=" + width}, animationSpeed, function () {
       currentSlide++;
-      console.log(currentSlide);
+      // console.log(currentSlide);
       if (currentSlide === $slides.length){
         currentSlide = 1;
-        console.log("FIRST");
+        // console.log("FIRST");
         $slideContainer.css("margin-left", 0);
       }
     });
   });
 
   $btnPrev.on("click", function () {
-    console.log("PREV");
+    // console.log("PREV");
     if (currentSlide != 1) {
       $slideContainer.animate({"margin-left": "+=" + width}, animationSpeed, function () {
         currentSlide--;
-        console.log(currentSlide);
+        // console.log(currentSlide);
       });
     } else{
       currentSlide = $slides.length;
-      console.log(currentSlide);
+      // console.log(currentSlide);
       $slideContainer.css("margin-left", -3600);
       $slideContainer.animate({"margin-left": "+=" + width}, animationSpeed, function () {
         currentSlide--;
-        console.log(currentSlide);
+        // console.log(currentSlide);
       });
     }
   });

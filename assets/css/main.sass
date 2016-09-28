@@ -1,0 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto'
+
+$pagewrap: #803232
+$logobg: rgba(255, 255, 255, 0.2)
+$background: #ffffff
+$white: #ffffff
+$text: #666
+$shadow: rgba(0, 0, 0, .5)
+
+html
+  font-family: "Roboto", sans-serif
+
+body
+  color: $text
+  position: relative
+  padding: 20px
+  margin: 0
+  background-color: $background
+
+.pagewrap
+  position: relative
+  left: 50%
+  transform: translate(-50%)
+  max-width: 960px
+  box-shadow: 0 3px 10px 0px $shadow
+  background-color: $pagewrap
+
+  header
+    position: relative
+    background-image: url('../img/black-and-white-city-skyline-buildings.jpg')
+    background-position: center center
+    background-size: cover
+    color: $white
+    min-height: 150px
+    border-bottom: 2px solid $white
+
+    .logo
+
+
+
+main
+  padding: 15px
+
+.text
+  margin-right: 200px
+  position: relative
+  box-shadow: 0 1px 5px 0px $shadow
+  padding: 20px
+  background-color: $white
+  margin-bottom: 15px
+
+  &:last-child
+    margin-bottom: 0
+
+  p:first-child
+    margin-top: 0
+  p:last-child
+    margin-bottom: 0
+
+hr
+  border: none
+  padding-top: 2px
+  background-color: $text
+
+.test
+  text-align: right
+  position: relative
+  float: right
+  background-color: $white
+  padding: 10px
+  padding-left: 30px
+  box-shadow: 0 1px 5px 0px $shadow
+
+  h5
+    margin: 0
+    font-size: 1em
+
+  ul
+    position: relative
+    list-style-type: none
+    font-size: .85em
+    padding: 0
+    margin: 0
+    transition-duration: 500ms
+
+    a
+      position: relative
+      text-decoration: none
+      color: $text

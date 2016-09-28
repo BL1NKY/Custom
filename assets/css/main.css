@@ -1,0 +1,85 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  color: #666;
+  position: relative;
+  padding: 20px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.pagewrap {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 960px;
+  box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #803232;
+}
+.pagewrap header {
+  position: relative;
+  background-image: url("../img/black-and-white-city-skyline-buildings.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #ffffff;
+  min-height: 150px;
+  border-bottom: 2px solid #ffffff;
+}
+
+main {
+  padding: 15px;
+}
+
+.text {
+  margin-right: 200px;
+  position: relative;
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+.text:last-child {
+  margin-bottom: 0;
+}
+.text p:first-child {
+  margin-top: 0;
+}
+.text p:last-child {
+  margin-bottom: 0;
+}
+
+hr {
+  border: none;
+  padding-top: 2px;
+  background-color: #666;
+}
+
+.test {
+  text-align: right;
+  position: relative;
+  float: right;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 30px;
+  box-shadow: 0 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.test h5 {
+  margin: 0;
+  font-size: 1em;
+}
+.test ul {
+  position: relative;
+  list-style-type: none;
+  font-size: 0.85em;
+  padding: 0;
+  margin: 0;
+  transition-duration: 500ms;
+}
+.test ul a {
+  position: relative;
+  text-decoration: none;
+  color: #666;
+}
